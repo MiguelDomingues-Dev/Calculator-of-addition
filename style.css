@@ -16,7 +16,7 @@ body {
 #header-calculator {
   position: relative;
   width: 300px;
-  height: 300px;
+  height: 450px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -73,7 +73,7 @@ body {
   background-image: linear-gradient(#3d156b, #df3562);
   width: 120px;
   left: 40%;
-  top: 80%;
+  top: 70%;
   transform: translate(-80%, -50%);
   color: white;
   text-shadow: 1px 1px 1.3px rgba(0, 0, 0, 0.341);
@@ -86,7 +86,7 @@ body {
   padding: 10px;
   width: 120px;
   left: 85%;
-  top: 80%;
+  top: 70%;
   transform: translate(-80%, -50%);
   text-shadow: 1px 1px 1.3px rgba(0, 0, 0, 0.341);
   background-image: linear-gradient(#3d156b, #df3562);
@@ -95,4 +95,20 @@ body {
   border: 1px solid black;
   text-align: center;
 }
+
+#calculator > #results {
+  position: absolute;
+  padding: 10px;
+  width: 120px;
+  left: 85%;
+  top: 85%;
+  transform: translate(-80%, -50%);
+  text-shadow: 1px 1px 1.3px rgba(0, 0, 0, 0.341);
+  background-image: linear-gradient(#3d156b, #df3562);
+  color: white;
+  border-radius: 10px;
+  border: 1px solid black;
+  text-align: center;
+}
+
 
